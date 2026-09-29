@@ -35,7 +35,7 @@ Pick the skills you want and the agents to install them on. The skills are writt
 
 </details>
 
-Then run `/setup-matt-pocock-skills` once per repo. It asks which issue tracker you use, which triage labels you apply, and where docs should be saved.
+Then run `/setup-matt-pocock-skills` once per repo.
 
 ## Rules for this repo
 
