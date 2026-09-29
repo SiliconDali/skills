@@ -41,16 +41,6 @@ Then run `/setup-matt-pocock-skills` once per repo. It asks which issue tracker 
 
 This repo is **public**. Keep it free of anything client- or project-specific: no client names, internal URLs, tickets or credentials. Project specifics belong in each project's own `AGENTS.md` / `docs/agents/`, which the skills read at runtime.
 
-## Syncing with upstream
-
-```bash
-git remote add upstream https://github.com/mattpocock/skills  # once
-git fetch upstream
-git merge upstream/main
-```
-
-On conflicts in `README.md` or `.claude-plugin/`, keep ours. Merge upstream skill changes normally.
-
 ## Reference
 
 These split on one axis: who can invoke them. **User-invoked** skills are reachable only when you type them (e.g. `/grill-me`); their job is to orchestrate. **Model-invoked** skills can be invoked by you _or_ reached for automatically by the agent when the task fits; they hold the reusable discipline. A user-invoked skill may invoke model-invoked skills, but never another user-invoked one.
