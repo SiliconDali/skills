@@ -2,10 +2,10 @@
   "name": "mattpocock-skills",
   "version": "1.2.3",
   "private": true,
-  "description": "Matt Pocock's agent skills for real engineering",
+  "description": "Silicon Dali's agent skills for engineering, based on mattpocock/skills",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattpocock/skills"
+    "url": "https://github.com/SiliconDali/skills"
   },
   "license": "MIT",
   "scripts": {
