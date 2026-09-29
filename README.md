@@ -37,6 +37,10 @@ Pick the skills you want and the agents to install them on. The skills are writt
 
 Then run `/setup-matt-pocock-skills` once per repo.
 
+## Runner
+
+[`runner/`](./runner/README.md) holds what an unattended run executes: the scripts that drive Claude Code through sandcastle, their prompts, and the runner policy a host workflow installs before the agent step.
+
 ## Rules for this repo
 
 This repo is **public**. Keep it free of anything client- or project-specific: no client names, internal URLs, tickets or credentials. Project specifics belong in each project's own `AGENTS.md` / `docs/agents/`, which the skills read at runtime.
